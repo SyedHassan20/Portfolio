@@ -6,10 +6,8 @@ This project presents an in-depth statistical analysis of birth data from North 
 - **Correlation Analysis**: Pearson's correlation coefficient is calculated to assess the strength and direction of the linear relationship between gestation period and birth weight. A correlation coefficient of approximately 0.68 indicates a moderately strong positive relationship.
 - **Linear Regression Modeling**: A simple linear regression model is developed to predict infant birth weight based on gestation weeks. The model includes the calculation of the slope β1 and intercept β0, with the regression equation derived as:
 Weight (lbs) = 0.37 × Weeks − 7.3.
-
 - **Statistical Significance**: The significance of the regression model is tested using a t-test, yielding a p-value significantly below the 0.05 threshold, leading to the rejection of the null hypothesis. This suggests a statistically significant linear relationship between the gestation period and birth weight.
-- **Model Fit**: The model's goodness-of-fit is evaluated using \newcommand{\R}{\mathbb{R}}
-, which in this case is 0.467, indicating that approximately 46.7% of the variance in birth weight can be explained by the gestation period.
+- **Model Fit**: The model's goodness-of-fit is evaluated using R-squared, which in this case is 0.467, indicating that approximately 46.7% of the variance in birth weight can be explained by the gestation period.
 
 ## 2. Medial Temporal Lobe Inferential Statistics Report
 
