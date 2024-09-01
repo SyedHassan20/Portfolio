@@ -23,7 +23,6 @@ This report explores the relationship between anxiety levels and physical activi
 
 This notebook focuses on analyzing ambulance dispatch data and optimizing the matching of ambulances to emergency cases. The technical highlights include:
 
-- **Data Analysis**: The analysis explores historical dispatch data, identifying key patterns such as response times, geographical distribution, and peak demand periods.
-- **Optimization Modeling**: Integer programming models are developed to optimize ambulance allocation, aiming to minimize response times and maximize coverage efficiency.
-- **Matching Algorithms**: The implementation of matching algorithms, including the Hungarian algorithm, is used to pair ambulances with emergency cases optimally.
-- **Simulation**: The effectiveness of the proposed dispatch strategies is evaluated through simulation, with metrics like average response time and coverage percentage being analyzed.
+- **Data Collection:** Gathered real-time data on ambulance dispatches at fifteen-minute intervals between 3 pm and 6 pm.
+- **Variable Analysis:** Examined the number of ambulances dispatched as a discrete variable to understand emergency response frequency.
+- **Simulation:** Developed and ran simulations to model and optimize ambulance response times and resource allocation.
